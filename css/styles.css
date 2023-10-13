@@ -64,7 +64,6 @@ padding: 24px 0;
 .header-menu-item {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
   align-items: center;
   margin: 0;
 }
@@ -89,7 +88,6 @@ letter-spacing: 0.02em;
 /**===================CONTENT==================*/
 .page-one {
   background-color: #2E2F42;
-  margin-bottom: 48px;
   padding: 188px 0;
 }
 
@@ -107,11 +105,16 @@ display: flex;
 align-items: center;
 }
 
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+padding: 0 15px;
+}
+
 .header-menu {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0 24px 0;
   margin: 0;
 }
 
@@ -136,13 +139,6 @@ align-items: center;
   overflow: hidden;
 }
 
-.container-title {
-width: 496px;
-margin: 0px auto 48px;
-padding: 0px 15px;
-display: block;
-}
-
 .card-img {
   display: block;
   max-width: 100%;
@@ -153,19 +149,15 @@ display: block;
   padding: 120px;
 }
 
-.section-portfolio {
-  padding: 32px 0 32px;
-  margin-left: 156px;
-  margin-right: 156px
-}
-
 .page-one-title {
   color: white;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-margin-bottom: 32px;
+margin-bottom: 48px;
+margin-left:auto;
+margin-right: auto;
 max-width: 496px;
 }
 
@@ -183,6 +175,7 @@ display: block;
 min-width: 169px;
 height: 56px;
 border: none;
+margin: 0 auto;
 }
 
 .page-one-btn:hover, .page-one-btn:focus{
@@ -285,7 +278,6 @@ text-align: center;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .works-title {
@@ -366,5 +358,4 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding-top: 17.5px;
 }
