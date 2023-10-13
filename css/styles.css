@@ -48,18 +48,23 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-link {
   color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 }
 
 .header-menu-item {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
+  padding: 24px 0;
   align-items: center;
   margin: 0;
 }
@@ -299,6 +304,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .works-list {
